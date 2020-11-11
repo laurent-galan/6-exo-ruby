@@ -1,12 +1,12 @@
 puts "vérifier si un mots est un palindrome ! Pour cela entrée ce mot ci dessous"
-input = gets.chomp 
-wrong_order = input.reverse 
+written = gets.chomp 
+wrong_order = written.reverse 
 
-puts "#{wrong_order}"
+puts "le mot que vous avez renseignés donne #{wrong_order} à l'envers"
 
- if input == wrong_order
-    puts "ce mot est bien un palindrome"
+ if written == wrong_order
+    puts "Le mot #{written} est un palindrome"
  else 
-    puts"ce n'est pas un palindrome"  
+    puts"Le mot #{written} n’est pas un palindrome"  
  end
  
